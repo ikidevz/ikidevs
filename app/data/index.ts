@@ -12,7 +12,7 @@ export const THEMES = [
 ] as const;
 
 export type ThemeId = (typeof THEMES)[number]["id"];
-export const DEFAULT_THEME: ThemeId = "plasma";
+export const DEFAULT_THEME: ThemeId = "arctic";
 
 export const STACK_SKILLS = [
 	{ name: "Python", pct: 95, dim: false },
@@ -59,42 +59,62 @@ export const EXPERIENCE = [
 
 export const SKILL_CARDS = [
 	{
-		title: "// orchestration",
+		title: "// Orchestration",
 		pills: ["Apache Airflow", "dbt", "Docker", "CI/CD"],
 	},
 	{
-		title: "// big data",
+		title: "// Big Data",
 		pills: ["Apache Spark", "Kafka", "Delta Lake", "MinIO"],
 	},
 	{
-		title: "// databases",
-		pills: ["PostgreSQL", "TimescaleDB", "Supabase", "Prisma"],
+		title: "// Databases",
+		pills: ["PostgreSQL", "MySQL", "MongoDB"],
 	},
 	{
-		title: "// languages",
-		pills: ["Python", "SQL", "JavaScript", "TypeScript"],
+		title: "// Languages",
+		pills: ["Python", "SQL", "JavaScript"],
 	},
 	{
-		title: "// analytics/ml",
+		title: "// Analytics & ML",
 		pills: ["Pandas", "NumPy", "Scikit-learn", "Plotly"],
 	},
 	{
-		title: "// web/frontend",
-		pills: ["Next.js", "React", "FastAPI", "GraphQL"],
+		title: "// Web & Frontend",
+		pills: ["Next.js", "React"],
 	},
 ];
 
 export const CERTIFICATIONS = [
 	{
+		name: "Data Engineer Certificate",
+		org: "365 Data Science",
+		url: "https://learn.365datascience.com/certificates/DD-0FA99845A0/",
+	},
+	{
 		name: "Data Engineering Professional",
 		org: "DeepLearning.AI · Coursera",
-		url: "#",
+		url: "https://www.coursera.org/account/accomplishments/professional-cert/1AT47XEDRYSM",
 	},
-	{ name: "IBM Data Science Specialization", org: "IBM · Coursera", url: "#" },
-	{ name: "IBM Data Analyst Specialization", org: "IBM · Coursera", url: "#" },
-	{ name: "Data Engineer Certificate", org: "365 Data Science", url: "#" },
-	{ name: "Data Scientist Certificate", org: "365 Data Science", url: "#" },
-	{ name: "Data Analyst Certificate", org: "365 Data Science", url: "#" },
+	{
+		name: "IBM Data Science Specialization",
+		org: "IBM · Coursera",
+		url: "https://learn.365datascience.com/certificates/DD-DFAA0CDAE2/",
+	},
+	{
+		name: "IBM Data Analyst Specialization",
+		org: "IBM · Coursera",
+		url: "https://learn.365datascience.com/certificates/DD-46F49544DE/",
+	},
+	{
+		name: "Data Scientist Certificate",
+		org: "365 Data Science",
+		url: "https://www.coursera.org/account/accomplishments/specialization/2QEGUBE3VTFZ",
+	},
+	{
+		name: "Data Analyst Certificate",
+		org: "365 Data Science",
+		url: "https://www.coursera.org/account/accomplishments/specialization/7SNWN9YKGZVR",
+	},
 ];
 
 export const HIGHLIGHT_PROJECTS = [

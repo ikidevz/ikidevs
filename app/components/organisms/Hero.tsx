@@ -48,7 +48,7 @@ export default function Hero() {
 							rel='noopener noreferrer'
 							className='tag tag-link'
 							aria-label={label}>
-							{getIcon(icon, 22)}
+							{getIcon(icon, 18)}
 						</a>
 					))}
 				</div>

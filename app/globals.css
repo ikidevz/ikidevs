@@ -357,7 +357,9 @@ body::before {
 	flex: 1;
 }
 .t-nav {
-	display: flex;
+	display: none; /* hidden by default (mobile) */
+	gap: 0.5rem;
+	margin-left: auto;
 }
 .t-nav a {
 	font-family: "IBM Plex Mono", monospace;
@@ -372,6 +374,16 @@ body::before {
 .t-nav a:hover,
 .t-nav a.active {
 	color: var(--cyan);
+}
+
+@media (min-width: 768px) {
+	.t-nav {
+		display: flex; /* unhide on tablet+ */
+	}
+
+	.t-url {
+		margin-left: 0; /* better alignment on bigger screens */
+	}
 }
 
 /* ── HERO ── */
@@ -1030,7 +1042,7 @@ footer {
 	color: var(--text-dim);
 }
 .footer-social {
-	display: flex;
+	display: none;
 	gap: 16px;
 	align-items: center;
 }
@@ -1047,6 +1059,12 @@ footer {
 }
 .footer-social-link:hover {
 	color: var(--cyan);
+}
+
+@media (min-width: 768px) {
+	.footer-social {
+		display: flex; /* unhide on tablet+ */
+	}
 }
 
 /* THEME SWITCHER */

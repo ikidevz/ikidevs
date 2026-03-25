@@ -1,5 +1,5 @@
 import { SOCIAL_LINKS } from "@/app/data";
-import { getIcon } from "./Icons";
+import { getIcon } from "@/app/components/atoms/Icons";
 
 export default function Footer() {
 	return (

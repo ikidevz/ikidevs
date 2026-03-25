@@ -1,30 +1,22 @@
 import { ANALYTICS_PROJECTS } from "@/app/data";
+import SectionHeader from "@/app/components/molecules/SectionHeader";
+import ProjectCard from "@/app/components/molecules/ProjectCard";
 
 export default function Analytics() {
 	return (
 		<section id='analytics' className='section'>
-			<div className='section-header'>
-				<span className='section-tag'>~/projects</span>
-				<h2 className='section-title'>Analytics &amp; Visualization</h2>
-				<div className='section-line' />
-			</div>
+			<SectionHeader tag='~/projects' title='Analytics & Visualization' />
 
 			<div className='analytics-grid'>
 				{ANALYTICS_PROJECTS.map((p) => (
-					<a
+					<ProjectCard
 						key={p.title}
-						href={p.url}
-						target='_blank'
-						rel='noopener noreferrer'
-						className='project-card'>
-						<div className='proj-meta'>
-							<span className='proj-tag'>{p.tag}</span>
-							<span className='proj-date'>{p.date}</span>
-						</div>
-						<div className='proj-title'>{p.title}</div>
-						<div className='proj-desc'>{p.desc}</div>
-						<div className='proj-link'>→ github.com/ikigamisama</div>
-					</a>
+						tag={p.tag}
+						date={p.date}
+						title={p.title}
+						desc={p.desc}
+						url={p.url}
+					/>
 				))}
 			</div>
 		</section>

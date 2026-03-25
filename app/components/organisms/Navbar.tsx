@@ -32,7 +32,7 @@ export default function Navbar() {
 				<div className='t-dot' style={{ background: "#febc2e" }} />
 				<div className='t-dot' style={{ background: "#28c840" }} />
 			</div>
-			<span className='t-url'>ikidevs.vercel.app</span>
+			<span className='t-url'>ikigami-devs.vercel.app</span>
 			<div className='t-nav'>
 				{NAV_LINKS.map(({ href, label }) => (
 					<a

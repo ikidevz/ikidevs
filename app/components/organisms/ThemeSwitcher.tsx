@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import { THEMES, DEFAULT_THEME, type ThemeId } from "@/app/data";
+import ThemeOption from "@/app/components/molecules/ThemeOption";
 
 export default function ThemeSwitcher() {
 	const [theme, setTheme] = useState<ThemeId>(DEFAULT_THEME);
@@ -32,16 +33,17 @@ export default function ThemeSwitcher() {
 			<div className={`theme-palette${open ? " open" : ""}`}>
 				<div className='palette-label'>// color_scheme</div>
 				{THEMES.map((t) => (
-					<button
+					<ThemeOption
 						key={t.id}
-						className={`theme-option${theme === t.id ? " active" : ""}`}
-						onClick={() => {
-							apply(t.id);
+						id={t.id}
+						label={t.label}
+						swatch={t.swatch}
+						active={theme === t.id}
+						onSelect={(id) => {
+							apply(id);
 							setOpen(false);
-						}}>
-						<span className='theme-swatch' style={{ background: t.swatch }} />
-						{t.label}
-					</button>
+						}}
+					/>
 				))}
 			</div>
 			<button className='theme-toggle-btn' onClick={() => setOpen((o) => !o)}>

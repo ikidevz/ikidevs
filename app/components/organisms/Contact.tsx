@@ -1,18 +1,18 @@
-export default function Contact() {
-	const details = [
-		{ label: "phone", val: "(+639) 763 351 225" },
-		{ label: "email", val: "ikigamidevs@gmail.com" },
-		{ label: "location", val: "Davao City, Philippines" },
-		{ label: "github", val: "github.com/ikigamisama" },
-	];
+import SectionHeader from "@/app/components/molecules/SectionHeader";
+import Button from "@/app/components/atoms/Button";
 
+const DETAILS = [
+	{ label: "phone", val: "(+639) 763 351 225" },
+	{ label: "email", val: "ikigamidevs@gmail.com" },
+	{ label: "location", val: "Davao City, Philippines" },
+	{ label: "github", val: "github.com/ikigamisama" },
+];
+
+export default function Contact() {
 	return (
 		<section id='contact' className='section'>
-			<div className='section-header'>
-				<span className='section-tag'>~/contact</span>
-				<h2 className='section-title'>Let&apos;s Work Together</h2>
-				<div className='section-line' />
-			</div>
+			<SectionHeader tag='~/contact' title="Let's Work Together" />
+
 			<div className='contact-wrap'>
 				<div className='contact-left'>
 					<div className='contact-title'>Open to opportunities</div>
@@ -22,20 +22,21 @@ export default function Contact() {
 						pipelines, and real-time systems.
 					</p>
 					<div className='hero-btns'>
-						<a href='mailto:franzmonzales@gmail.com' className='btn-primary'>
+						<Button href='mailto:franzmonzales@gmail.com' variant='primary'>
 							./send_email.sh
-						</a>
-						<a
+						</Button>
+						<Button
 							href='https://github.com/ikigamisama'
+							variant='ghost'
 							target='_blank'
-							rel='noopener noreferrer'
-							className='btn-ghost'>
+							rel='noopener noreferrer'>
 							github profile
-						</a>
+						</Button>
 					</div>
 				</div>
+
 				<div className='contact-right'>
-					{details.map(({ label, val }) => (
+					{DETAILS.map(({ label, val }) => (
 						<div key={label} className='contact-item'>
 							<div className='contact-label'>{label}</div>
 							<div className='contact-val'>{val}</div>

@@ -1,5 +1,9 @@
 import { STACK_SKILLS, SOCIAL_LINKS } from "@/app/data";
-import { getIcon } from "./Icons";
+import Button from "@/app/components/atoms/Button";
+import Tag from "@/app/components/atoms/Tag";
+import { getIcon } from "@/app/components/atoms/Icons";
+import ProfileRing from "@/app/components/molecules/ProfileRing";
+import StackPanel from "@/app/components/molecules/StackPanel";
 
 export default function Hero() {
 	return (
@@ -27,63 +31,34 @@ export default function Hero() {
 				</p>
 
 				<div className='hero-btns anim-4'>
-					<a
+					<Button
 						href='https://tdhghaslnufgtzjybhhf.supabase.co/storage/v1/object/public/resume/franz_monzales_cv.pdf'
-						className='btn-primary'
+						variant='primary'
 						target='_blank'
 						rel='noopener noreferrer'>
 						./download_cv.sh
-					</a>
-					<a href='#projects' className='btn-ghost'>
+					</Button>
+					<Button href='#projects' variant='ghost'>
 						ls ./projects
-					</a>
+					</Button>
 				</div>
 
 				<div className='hero-tags anim-5'>
 					{SOCIAL_LINKS.map(({ label, url, icon }) => (
-						<a
-							key={icon}
-							href={url}
-							target='_blank'
-							rel='noopener noreferrer'
-							className='tag tag-link'
-							aria-label={label}>
-							{getIcon(icon, 18)}
-						</a>
+						<Tag key={icon} href={url} ariaLabel={label}>
+							{getIcon(icon, 22)}
+						</Tag>
 					))}
 				</div>
 			</div>
 
 			{/* RIGHT — profile image + stack.yml */}
 			<div className='hero-side'>
-				{/* Profile image with spinning neon ring */}
-				<div className='profile-img-wrap anim-left'>
-					<div className='profile-img-ring'>
-						{/* eslint-disable-next-line @next/next/no-img-element */}
-						<img
-							src='https://tdhghaslnufgtzjybhhf.supabase.co/storage/v1/object/public/resume/iki.png'
-							alt='Franz Monzales'
-							className='profile-img'
-							loading='eager'
-						/>
-					</div>
-				</div>
-
-				{/* Stack skill bars */}
-				<div className='side-panel anim-left'>
-					<div className='side-panel-title'>// stack.yml</div>
-					{STACK_SKILLS.map((s) => (
-						<div key={s.name} className='skill-row'>
-							<span className='skill-name'>{s.name}</span>
-							<div className='bar-bg'>
-								<div
-									className={`bar-fill${s.dim ? " mid" : ""}`}
-									style={{ width: `${s.pct}%` }}
-								/>
-							</div>
-						</div>
-					))}
-				</div>
+				<ProfileRing
+					src='https://tdhghaslnufgtzjybhhf.supabase.co/storage/v1/object/public/resume/iki.png'
+					alt='Franz Monzales'
+				/>
+				<StackPanel skills={STACK_SKILLS} />
 			</div>
 		</section>
 	);

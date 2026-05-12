@@ -138,6 +138,14 @@ export const HIGHLIGHT_PROJECTS = [
 	{
 		tag: "Data Engineering",
 		date: "May 2026",
+		title: "PH-Multi-Subsidiary-Data-Lakehouse",
+		desc: "A production-grade Philippine conglomerate data platform with real CRUD operations, change data capture (CDC), and medallion architecture. Eight department microservices (FastAPI) with persistent PostgreSQL databases. Debezium captures all changes via Kafka CDC. Airflow orchestrates medallion transformations. Apache Superset provides BI dashboards.",
+		url: "https://ikiblog.vercel.app/posts/production-grade-data-lakehouse-for-a-philippine-multi-subsidiary-conglomerate",
+		github: "https://github.com/ikidevz/PH-Multi-Subsidiary-Data-Lakehouse",
+	},
+	{
+		tag: "Data Engineering",
+		date: "May 2026",
 		title: "Landed Cost Calculator Pipeline",
 		desc: "End-to-end production-grade logistics pipeline for Philippine imports. Calculates full landed costs with Kafka, Airflow, PostgreSQL, dbt, and Metabase.",
 		url: "https://ikiblog.vercel.app/posts/building-a-real-time-import-cost-pipeline-from-zero-kafka-airflow-3-dbt-postgresql-with-metabase-on-docker",

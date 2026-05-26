@@ -119,6 +119,21 @@ export const CERTIFICATIONS = [
 
 export const HIGHLIGHT_PROJECTS = [
 	{
+		tag: "Tools",
+		date: "May 2026",
+		title: "Iki-Scraper",
+		desc: "A tool for data scrapers with Advanced asynchronous web scraping framework with proxy rotation, human behavior simulation, and robust architecture.",
+		url: "https://github.com/ikidevz/Iki_Scraper",
+	},
+	{
+		tag: "Data Engineering",
+		date: "May 2026",
+		title: "Davao-Jeepney-Route-Optimization",
+		desc: "A full data engineering and data science project analyzing commuter patterns across Davao City's jeepney routes — built on a lightweight Data Lakehouse with Docker and Python.",
+		url: "https://ikiblog.vercel.app/posts/routing-through-data-inside-the-davao-jeepney-optimization-project",
+		github: "https://github.com/ikidevz/Davao-Jeepney-Route-Optimization",
+	},
+	{
 		tag: "Data Engineering",
 		date: "May 2026",
 		title: "ETL-Table-Driven",
@@ -183,13 +198,6 @@ export const HIGHLIGHT_PROJECTS = [
 		title: "SyntheticDataCrafter",
 		desc: "Hyper-realistic synthetic data generator — 750+ field types, real-world distributions, relational schemas, and instant export to 10+ formats.",
 		url: "https://github.com/ikidevz/SyntheticDataCrafter",
-	},
-	{
-		tag: "Tooling",
-		date: "Oct 2025",
-		title: "Iki-Scraper",
-		desc: "Robust production-ready async web scraper built with Playwright, Tenacity, and custom ProxyRotator — designed for ETL & Airflow integration.",
-		url: "https://github.com/ikidevz/Iki-Scraper",
 	},
 ];
 

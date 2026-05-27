@@ -121,9 +121,18 @@ export const HIGHLIGHT_PROJECTS = [
 	{
 		tag: "Tools",
 		date: "May 2026",
+		title: "Iki_DQ_Check",
+		desc: "A production-grade Python library and CLI tool for validating data quality across 25 checks, organized into 3 progressive tiers — Lite, Standard, and Advanced",
+		url: "https://github.com/ikidevz/Iki_DQ_Check",
+		github: "https://github.com/ikidevz/Iki_DQ_Check",
+	},
+	{
+		tag: "Tools",
+		date: "May 2026",
 		title: "Iki-Scraper",
 		desc: "A tool for data scrapers with Advanced asynchronous web scraping framework with proxy rotation, human behavior simulation, and robust architecture.",
 		url: "https://github.com/ikidevz/Iki_Scraper",
+		github: "https://github.com/ikidevz/Iki_Scraper",
 	},
 	{
 		tag: "Data Engineering",

@@ -121,6 +121,14 @@ export const HIGHLIGHT_PROJECTS = [
 	{
 		tag: "Tools",
 		date: "May 2026",
+		title: "Iki_PII_Masker",
+		desc: "A production-grade, pipe-friendly CLI tool for data engineers and analysts who need to sanitize datasets fast — without wrestling with config files or heavyweight frameworks.",
+		url: "https://github.com/ikidevz/Iki_PII_Masker",
+		github: "https://github.com/ikidevz/Iki_PII_Masker",
+	},
+	{
+		tag: "Tools",
+		date: "May 2026",
 		title: "Iki_DQ_Check",
 		desc: "A production-grade Python library and CLI tool for validating data quality across 25 checks, organized into 3 progressive tiers — Lite, Standard, and Advanced",
 		url: "https://github.com/ikidevz/Iki_DQ_Check",

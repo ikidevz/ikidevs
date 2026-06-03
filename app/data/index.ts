@@ -120,6 +120,14 @@ export const CERTIFICATIONS = [
 export const HIGHLIGHT_PROJECTS = [
 	{
 		tag: "Tools",
+		date: "June 2026",
+		title: "IkiDataGenerator",
+		desc: "Generate realistic, diverse synthetic data with 700+ built-in fields across 22 categories. Perfect for testing, development, and prototyping — without the legal baggage of real data.",
+		url: "https://github.com/ikidevz/IkiDataGenerator",
+		github: "https://github.com/ikidevz/IkiDataGenerator",
+	},
+	{
+		tag: "Tools",
 		date: "May 2026",
 		title: "Iki_PII_Masker",
 		desc: "A production-grade, pipe-friendly CLI tool for data engineers and analysts who need to sanitize datasets fast — without wrestling with config files or heavyweight frameworks.",

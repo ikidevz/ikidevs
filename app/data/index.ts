@@ -216,14 +216,7 @@ export const HIGHLIGHT_PROJECTS = [
 		desc: "Microservices + streaming remittance processing pipeline with TimescaleDB for time-series and Streamlit dashboards. Real-time analytics for OFW remittances.",
 		url: "https://ikiblog.vercel.app/posts/building-a-real-time-ofw-remittance-intelligence-platform",
 		github: "https://github.com/ikigamisama/RemitFlowPH",
-	},
-	{
-		tag: "Data Engineering",
-		date: "Nov 2025",
-		title: "SyntheticDataCrafter",
-		desc: "Hyper-realistic synthetic data generator — 750+ field types, real-world distributions, relational schemas, and instant export to 10+ formats.",
-		url: "https://github.com/ikidevz/SyntheticDataCrafter",
-	},
+	}
 ];
 
 export const ANALYTICS_PROJECTS = [

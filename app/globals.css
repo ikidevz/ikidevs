@@ -954,6 +954,43 @@ body::before {
 .featured-card:hover {
 	border-color: var(--cyan);
 }
+
+.feature-meta {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.feature-meta .feature-tag {
+	font-family: "IBM Plex Mono", monospace;
+	font-size: 9px;
+	color: var(--cyan);
+	background: var(--cyan-dim);
+	border: 1px solid var(--cyan-border);
+	padding: 2px 8px;
+	border-radius: 2px;
+	letter-spacing: 0.06em;
+}
+.feature-meta .feature-date {
+	font-family: "IBM Plex Mono", monospace;
+	font-size: 9px;
+	color: var(--cyan);
+}
+
+.feature-img-cover {
+	width: 100%;
+	height: 700px;
+	border-radius: 8px;
+	overflow: hidden;
+	margin-bottom: 16px;
+}
+.feature-img-cover img {
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+	display: block;
+}
+
 .featured-badge {
 	font-family: "IBM Plex Mono", monospace;
 	font-size: 9px;

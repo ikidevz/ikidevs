@@ -121,82 +121,92 @@ export const HIGHLIGHT_PROJECTS = [
 	{
 		tag: "Tools",
 		date: "June 2026",
+		coverImg:
+			"https://raw.githubusercontent.com/ikidevz/IkiDataGenerator/refs/heads/main/assets/cover.png",
 		title: "IkiDataGenerator",
-		desc: "Generate realistic, diverse synthetic data with 700+ built-in fields across 22 categories. Perfect for testing, development, and prototyping — without the legal baggage of real data.",
+		desc: "Generate realistic synthetic data with 700+ fields across 22 categories. Supports CSV, Parquet, JSON, SQL, Excel, DuckDB, and more. Production-ready and privacy-first.",
 		url: "https://github.com/ikidevz/IkiDataGenerator",
-		github: "https://github.com/ikidevz/IkiDataGenerator",
+		linkLabel: "https://github.com/ikidevz/IkiDataGenerator",
+		footerTag: "pip install iki-data-generator · GitHub",
+	},
+	{
+		tag: "Tools",
+		date: "June 2026",
+		coverImg:
+			"https://raw.githubusercontent.com/ikidevz/ikiapikit/main/assets/cover.png",
+		title: "Ikiapikit",
+		desc: "The Swiss-Army Knife for REST & GraphQL APIs. Elegant interface with pagination, retries, Polars/Pandas DataFrames, streaming, and file exports.",
+		url: "https://github.com/ikidevz/ikiapikit",
+		linkLabel: "https://github.com/ikidevz/ikiapikit",
+		footerTag: "pip install ikiapikit · GitHub",
 	},
 	{
 		tag: "Tools",
 		date: "May 2026",
-		title: "Iki_PII_Masker",
-		desc: "A production-grade, pipe-friendly CLI tool for data engineers and analysts who need to sanitize datasets fast — without wrestling with config files or heavyweight frameworks.",
-		url: "https://github.com/ikidevz/Iki_PII_Masker",
-		github: "https://github.com/ikidevz/Iki_PII_Masker",
+		coverImg:
+			"https://tdhghaslnufgtzjybhhf.supabase.co/storage/v1/object/public/content/Data%20Tools%20Scripts/Iki-Scraper/img_cover.png",
+		title: "Iki_Scraper",
+		desc: "Advanced asynchronous web scraping framework powered by Playwright. Verb-first API, structured extraction, change detection, and resumable runs.",
+		url: "https://github.com/ikidevz/Iki_Scraper",
+		linkLabel: "https://github.com/ikidevz/Iki_Scraper",
+		footerTag: "pip install iki-scraper · GitHub",
 	},
+	{
+		tag: "Data Engineering",
+		date: "May 2026",
+		coverImg:
+			"https://tdhghaslnufgtzjybhhf.supabase.co/storage/v1/object/public/content/ETL%20Engineer%20Portfoilo/ph_multi_subsdridary.png",
+		title: "PH Multi-Subsidiary Data Lakehouse",
+		desc: "Enterprise-grade data platform unifying 5 subsidiaries. Features CDC (Debezium + Kafka), Medallion architecture, Airflow orchestration, and Superset BI.",
+		url: "https://ikiblog.vercel.app/posts/production-grade-data-lakehouse-for-a-philippine-multi-subsidiary-conglomerate",
+		linkLabel: "View Case Study",
+		footerTag: "Data Lakehouse · Airflow · Kafka",
+	},
+	{
+		tag: "Tools",
+		date: "May 2026",
+		coverImg:
+			"https://raw.githubusercontent.com/ikidevz/Iki_PII_Masker/main/assets/readme.png",
+		title: "Iki_PII_Masker",
+		desc: "Fast, pipe-friendly CLI + library for sanitizing PII with 10+ strategies (fake, redact, hash, reversible AES). Auto-detection and multi-format support.",
+		url: "https://github.com/ikidevz/Iki_PII_Masker",
+		linkLabel: "https://github.com/ikidevz/Iki_PII_Masker",
+		footerTag: "pip install iki-pii-masker · GitHub",
+	},
+];
+
+export const FLEX_PROJECTS = [
+	// Tools
 	{
 		tag: "Tools",
 		date: "May 2026",
 		title: "Iki_DQ_Check",
-		desc: "A production-grade Python library and CLI tool for validating data quality across 25 checks, organized into 3 progressive tiers — Lite, Standard, and Advanced",
+		desc: "Production-grade data quality validation with 25+ checks across Lite/Standard/Advanced tiers. Python-native config, CLI, and support for Pandas, Polars, DuckDB, SQL.",
 		url: "https://github.com/ikidevz/Iki_DQ_Check",
 		github: "https://github.com/ikidevz/Iki_DQ_Check",
 	},
+	// Data Engineering Projects
 	{
-		tag: "Tools",
+		tag: "Data Engineering",
 		date: "May 2026",
-		title: "Iki-Scraper",
-		desc: "A tool for data scrapers with Advanced asynchronous web scraping framework with proxy rotation, human behavior simulation, and robust architecture.",
-		url: "https://github.com/ikidevz/Iki_Scraper",
-		github: "https://github.com/ikidevz/Iki_Scraper",
+		title: "ETL_PH_Retail_Omnichannel",
+		desc: "Omnichannel retail ELT pipeline (Lazada, Shopee, physical stores) into Kimball star schema on Snowflake. Covers sales, inventory, and supply chain analytics.",
+		url: "https://github.com/ikidevz/ETL_PH_Retail_Omnichannel",
+		github: "https://github.com/ikidevz/ETL_PH_Retail_Omnichannel",
 	},
 	{
 		tag: "Data Engineering",
 		date: "May 2026",
-		title: "Davao-Jeepney-Route-Optimization",
-		desc: "A full data engineering and data science project analyzing commuter patterns across Davao City's jeepney routes — built on a lightweight Data Lakehouse with Docker and Python.",
-		url: "https://ikiblog.vercel.app/posts/routing-through-data-inside-the-davao-jeepney-optimization-project",
-		github: "https://github.com/ikidevz/Davao-Jeepney-Route-Optimization",
-	},
-	{
-		tag: "Data Engineering",
-		date: "May 2026",
-		title: "ETL-Table-Driven",
-		desc: "Production-grade, metadata-driven ETL framework where all business logic lives in configuration (JSON). Zero Python needed to add new pipelines.",
-		url: "https://ikiblog.vercel.app/posts/table-driven-etl",
-		github: "https://github.com/ikigamisama/ETL-Table-Driven",
-	},
-	{
-		tag: "Data Engineering",
-		date: "May 2026",
-		title: "BSP AMLA Compliance Suspicious Transaction Reporting Pipeline",
-		desc: "A production-grade Apache Airflow + dbt data pipeline for Bank of Philippine Islands (BSP) Anti-Money Laundering (AML) and Suspicious Transaction Reporting (STR) compliance automation.",
-		url: "https://ikiblog.vercel.app/posts/i-built-a-production-grade-aml-compliance-pipeline-for-philippine-banking",
-		github:
-			"https://github.com/ikidevz/BSP-AMLA-Compliance-Suspicious-Transaction-Reporting-Pipeline",
-	},
-	{
-		tag: "Data Engineering",
-		date: "May 2026",
-		title: "PH-Multi-Subsidiary-Data-Lakehouse",
-		desc: "A production-grade Philippine conglomerate data platform with real CRUD operations, change data capture (CDC), and medallion architecture. Eight department microservices (FastAPI) with persistent PostgreSQL databases. Debezium captures all changes via Kafka CDC. Airflow orchestrates medallion transformations. Apache Superset provides BI dashboards.",
-		url: "https://ikiblog.vercel.app/posts/production-grade-data-lakehouse-for-a-philippine-multi-subsidiary-conglomerate",
-		github: "https://github.com/ikidevz/PH-Multi-Subsidiary-Data-Lakehouse",
-	},
-	{
-		tag: "Data Engineering",
-		date: "May 2026",
-		title: "Landed Cost Calculator Pipeline",
-		desc: "End-to-end production-grade logistics pipeline for Philippine imports. Calculates full landed costs with Kafka, Airflow, PostgreSQL, dbt, and Metabase.",
-		url: "https://ikiblog.vercel.app/posts/building-a-real-time-import-cost-pipeline-from-zero-kafka-airflow-3-dbt-postgresql-with-metabase-on-docker",
-		github:
-			"https://github.com/ikidevz/Landed-Cost-Calculator-Logistic-Data-Pipeline",
+		title: "ETL PH Banking AML",
+		desc: "BSP-compliant Anti-Money Laundering system using Data Vault 2.0, Snowflake Streams CDC, PII masking, fuzzy matching, and regulatory reporting.",
+		url: "https://github.com/ikidevz/ETL_ph_banking_aml",
+		github: "https://github.com/ikidevz/ETL_ph_banking_aml",
 	},
 	{
 		tag: "Data Engineering",
 		date: "May 2026",
 		title: "PH Port Congestion Monitor",
-		desc: "Real-time + batch pipeline monitoring vessel activity and port congestion in major Philippine ports using Airflow, dbt (Medallion), PostgreSQL & Grafana.",
+		desc: "Real-time + batch pipeline for port operations and congestion monitoring using Kimball modeling and Snowflake Dynamic Tables.",
 		url: "https://ikiblog.vercel.app/posts/building-a-real-time-port-congestion-monitor-for-philippine-ports",
 		github:
 			"https://github.com/ikidevz/PH-Port-Congestion-Monitor-Data-Pipeline",
@@ -204,19 +214,44 @@ export const HIGHLIGHT_PROJECTS = [
 	{
 		tag: "Data Engineering",
 		date: "May 2026",
+		title: "Landed Cost Calculator Pipeline",
+		desc: "End-to-end logistics pipeline for Philippine imports using Kafka, Airflow, dbt, PostgreSQL, and Metabase.",
+		url: "https://ikiblog.vercel.app/posts/building-a-real-time-import-cost-pipeline-from-zero-kafka-airflow-3-dbt-postgresql-with-metabase-on-docker",
+		github:
+			"https://github.com/ikidevz/Landed-Cost-Calculator-Logistic-Data-Pipeline",
+	},
+	{
+		tag: "Data Engineering",
+		date: "May 2026",
 		title: "Retail Medallion Data Pipeline",
-		desc: "Full Medallion Architecture (Bronze → Silver → Gold) for retail data across 50+ Philippine stores. Features synthetic data generation, Polars, Star Schema, and layered Airflow DAGs.",
+		desc: "Full Medallion architecture (Bronze → Silver → Gold) for retail data with Polars and Star Schema modeling.",
 		url: "https://ikiblog.vercel.app/posts/building-a-real-time-retail-data-pipeline-with-medallion-architecture",
 		github: "https://github.com/ikidevz/Retail-Medallion-Data-Pipeline",
+	},
+	{
+		tag: "Data Engineering",
+		date: "May 2026",
+		title: "ETL-Table-Driven",
+		desc: "Metadata-driven ETL framework where all business logic lives in JSON configuration. Zero-code pipeline additions.",
+		url: "https://ikiblog.vercel.app/posts/table-driven-etl",
+		github: "https://github.com/ikigamisama/ETL-Table-Driven",
 	},
 	{
 		tag: "Streaming",
 		date: "Nov 2025",
 		title: "RemitFlow PH",
-		desc: "Microservices + streaming remittance processing pipeline with TimescaleDB for time-series and Streamlit dashboards. Real-time analytics for OFW remittances.",
+		desc: "Microservices + streaming remittance processing pipeline with TimescaleDB and Streamlit dashboards for OFW remittances.",
 		url: "https://ikiblog.vercel.app/posts/building-a-real-time-ofw-remittance-intelligence-platform",
 		github: "https://github.com/ikigamisama/RemitFlowPH",
-	}
+	},
+	{
+		tag: "Data Engineering",
+		date: "May 2026",
+		title: "Davao Jeepney Route Optimization",
+		desc: "Data engineering + data science project analyzing commuter patterns using a lightweight Data Lakehouse with Docker and Python.",
+		url: "https://ikiblog.vercel.app/posts/routing-through-data-inside-the-davao-jeepney-optimization-project",
+		github: "https://github.com/ikidevz/Davao-Jeepney-Route-Optimization",
+	},
 ];
 
 export const ANALYTICS_PROJECTS = [

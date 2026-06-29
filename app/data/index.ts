@@ -156,9 +156,9 @@ export const HIGHLIGHT_PROJECTS = [
 		date: "May 2026",
 		coverImg:
 			"https://tdhghaslnufgtzjybhhf.supabase.co/storage/v1/object/public/content/ETL%20Engineer%20Portfoilo/ph_multi_subsdridary.png",
-		title: "PH Multi-Subsidiary Data Lakehouse",
-		desc: "Enterprise-grade data platform unifying 5 subsidiaries. Features CDC (Debezium + Kafka), Medallion architecture, Airflow orchestration, and Superset BI.",
-		url: "https://ikiblog.vercel.app/posts/production-grade-data-lakehouse-for-a-philippine-multi-subsidiary-conglomerate",
+		title: "ETL PH Multi SubsidiaryEnterprise Data Warehouse",
+		desc: "A portfolio-grade enterprise data warehouse designed to unify five subsidiaries operating in different industries and using different source systems into one governed reporting layer. The ambition is not just to move data from point A to point B, but to create a trusted, conformed foundation for finance, operations, and executive reporting.",
+		url: "https://github.com/ikidevz/ETL_PH-Multi-Subsidiary-Enterprise-Data-Warehouse",
 		linkLabel: "View Case Study",
 		footerTag: "Data Lakehouse · Airflow · Kafka",
 	},

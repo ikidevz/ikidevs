@@ -117,7 +117,7 @@ export const CERTIFICATIONS = [
 	},
 ];
 
-export const HIGHLIGHT_PROJECTS = [
+export const HIGHLIGHT_TOOLS_PROJECTS = [
 	{
 		tag: "Tools",
 		date: "June 2026",
@@ -152,17 +152,6 @@ export const HIGHLIGHT_PROJECTS = [
 		footerTag: "pip install iki-scraper · GitHub",
 	},
 	{
-		tag: "Data Engineering",
-		date: "May 2026",
-		coverImg:
-			"https://tdhghaslnufgtzjybhhf.supabase.co/storage/v1/object/public/content/ETL%20Engineer%20Portfoilo/ph_multi_subsdridary.png",
-		title: "ETL PH Multi SubsidiaryEnterprise Data Warehouse",
-		desc: "A portfolio-grade enterprise data warehouse designed to unify five subsidiaries operating in different industries and using different source systems into one governed reporting layer. The ambition is not just to move data from point A to point B, but to create a trusted, conformed foundation for finance, operations, and executive reporting.",
-		url: "https://github.com/ikidevz/ETL_PH-Multi-Subsidiary-Enterprise-Data-Warehouse",
-		linkLabel: "View Case Study",
-		footerTag: "Data Lakehouse · Airflow · Kafka",
-	},
-	{
 		tag: "Tools",
 		date: "May 2026",
 		coverImg:
@@ -172,6 +161,80 @@ export const HIGHLIGHT_PROJECTS = [
 		url: "https://github.com/ikidevz/Iki_PII_Masker",
 		linkLabel: "https://github.com/ikidevz/Iki_PII_Masker",
 		footerTag: "pip install iki-pii-masker · GitHub",
+	},
+	{
+		tag: "Tools",
+		date: "May 2026",
+		title: "Iki_DQ_Check",
+		coverImg:
+			"https://tdhghaslnufgtzjybhhf.supabase.co/storage/v1/object/public/content/Data%20Tools%20Scripts/Iki-DQ-Check/cover.png",
+		desc: "Production-grade data quality validation with 25+ checks across Lite/Standard/Advanced tiers. Python-native config, CLI, and support for Pandas, Polars, DuckDB, SQL.",
+		url: "https://github.com/ikidevz/Iki_DQ_Check",
+		linkLabel: "https://github.com/ikidevz/Iki_DQ_Check",
+		footerTag: "pip install iki-dq-check · GitHub",
+	},
+];
+
+export const HIGHLIGHT_ETL_PROJECTS = [
+	{
+		tag: "Data Engineering",
+		date: "July 2026",
+		coverImg:
+			"https://tdhghaslnufgtzjybhhf.supabase.co/storage/v1/object/public/content/ETL%20Engineer%20Portfoilo/ph_corporate_fpna_analytics.png",
+		title: "ETL PH Corporate Finance & FP&A",
+		desc: "A portfolio-grade enterprise data warehouse designed to unify five subsidiaries operating in different industries and using different source systems into one governed reporting layer. The ambition is not just to move data from point A to point B, but to create a trusted, conformed foundation for finance, operations, and executive reporting.",
+		url: "https://github.com/ikidevz/ETL_PH-Corporate-Finance-FP-A",
+		linkLabel: "View Repository",
+		footerTag:
+			"ETL · Kimball (Bottom-Up) · Snowflake · Python · dbt · Airflow · Dimensional Modeling",
+	},
+	{
+		tag: "Data Engineering",
+		date: "June 2026",
+		coverImg:
+			"https://tdhghaslnufgtzjybhhf.supabase.co/storage/v1/object/public/content/ETL%20Engineer%20Portfoilo/ph_multi_subsdridary.png",
+		title: "ETL PH Multi Subsidiary Enterprise Data Warehouse",
+		desc: "A portfolio-grade enterprise data warehouse designed to unify five subsidiaries operating in different industries and using different source systems into one governed reporting layer. The ambition is not just to move data from point A to point B, but to create a trusted, conformed foundation for finance, operations, and executive reporting.",
+		url: "https://github.com/ikidevz/ETL_PH-Multi-Subsidiary-Enterprise-Data-Warehouse",
+		linkLabel: "View Repository",
+		footerTag:
+			"ETL · Inmon (Top-Down) · Snowflake · Python · dbt · Airflow · Entity-Relationship",
+	},
+	{
+		tag: "Data Engineering",
+		date: "June 2026",
+		coverImg:
+			"https://tdhghaslnufgtzjybhhf.supabase.co/storage/v1/object/public/content/ETL%20Engineer%20Portfoilo/ph_multi_subsdridary.png",
+		title: "ETL PH Banking AML",
+		desc: " End-to-end ELT pipeline simulating a BSP AMLA-compliant Anti-Money Laundering system for a Philippine bank — built on **Data Vault 2.0 + Snowflake + dbt + Airflow 3.x**, with Snowflake Stream CDC, dual-layer PII masking, Jaro-Winkler watchlist fuzzy matching, and regulatory-shaped CTR/STR marts ready for BSP filing.",
+		url: "https://github.com/ikidevz/ETL_ph_banking_aml",
+		linkLabel: "View Repository",
+		footerTag:
+			"ETL · Inmon (Top-Down) · Snowflake · Python · dbt · Airflow · Data Vault 2.0",
+	},
+	{
+		tag: "Data Engineering",
+		date: "June 2026",
+		coverImg:
+			"https://tdhghaslnufgtzjybhhf.supabase.co/storage/v1/object/public/content/ETL%20Engineer%20Portfoilo/ph_retail_omnichannel.png",
+		title: "ETL PH Retail Omnichannel",
+		desc: "Omnichannel retail ELT pipeline (Lazada, Shopee, physical stores) → Kimball star schema on Snowflake. Includes sales, inventory, and supply chain analytics.",
+		url: "https://github.com/ikidevz/ETL_PH_Retail_Omnichannel",
+		linkLabel: "View Repository",
+		footerTag:
+			"ETL · Kimball (Bottom-Up) · Snowflake · Python · dbt · Airflow · Dimensional Modeling",
+	},
+	{
+		tag: "Data Engineering",
+		date: "June 2026",
+		coverImg:
+			"https://tdhghaslnufgtzjybhhf.supabase.co/storage/v1/object/public/content/ETL%20Engineer%20Portfoilo/ph_retail_omnichannel.png",
+		title: "ETL_PH_Logistics_Port_Congestion",
+		desc: "Port operations and congestion monitoring with Kimball modeling + Snowflake Dynamic Tables for near-real-time insights (no external streaming required).",
+		url: "https://github.com/ikidevz/ETL_ph_logistics_port_congestion",
+		linkLabel: "View Repository",
+		footerTag:
+			"ETL · Kimball (Bottom-Up) · Snowflake · Python · dbt · Airflow · Dimensional Modeling",
 	},
 ];
 
@@ -184,23 +247,6 @@ export const FLEX_PROJECTS = [
 		desc: "Production-grade data quality validation with 25+ checks across Lite/Standard/Advanced tiers. Python-native config, CLI, and support for Pandas, Polars, DuckDB, SQL.",
 		url: "https://github.com/ikidevz/Iki_DQ_Check",
 		github: "https://github.com/ikidevz/Iki_DQ_Check",
-	},
-	// Data Engineering Projects
-	{
-		tag: "Data Engineering",
-		date: "May 2026",
-		title: "ETL_PH_Retail_Omnichannel",
-		desc: "Omnichannel retail ELT pipeline (Lazada, Shopee, physical stores) into Kimball star schema on Snowflake. Covers sales, inventory, and supply chain analytics.",
-		url: "https://github.com/ikidevz/ETL_PH_Retail_Omnichannel",
-		github: "https://github.com/ikidevz/ETL_PH_Retail_Omnichannel",
-	},
-	{
-		tag: "Data Engineering",
-		date: "May 2026",
-		title: "ETL PH Banking AML",
-		desc: "BSP-compliant Anti-Money Laundering system using Data Vault 2.0, Snowflake Streams CDC, PII masking, fuzzy matching, and regulatory reporting.",
-		url: "https://github.com/ikidevz/ETL_ph_banking_aml",
-		github: "https://github.com/ikidevz/ETL_ph_banking_aml",
 	},
 	{
 		tag: "Data Engineering",

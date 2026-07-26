@@ -144,9 +144,20 @@ export const HIGHLIGHT_TOOLS_PROJECTS = [
 		tag: "Tools",
 		date: "May 2026",
 		coverImg:
+			"https://tdhghaslnufgtzjybhhf.supabase.co/storage/v1/object/public/content/Data%20Tools%20Scripts/Iki-DQ-Check/cover.png",
+		title: "Iki_DQ_Check",
+		desc: "Production-grade data quality validation with 25+ checks across Lite, Standard, and Advanced tiers. Python-native configuration, CLI, and support for Pandas, Polars, DuckDB, SQL, and more.",
+		url: "https://github.com/ikidevz/Iki_DQ_Check",
+		linkLabel: "https://github.com/ikidevz/Iki_DQ_Check",
+		footerTag: "pip install iki-dq-check · GitHub",
+	},
+	{
+		tag: "Tools",
+		date: "May 2026",
+		coverImg:
 			"https://tdhghaslnufgtzjybhhf.supabase.co/storage/v1/object/public/content/Data%20Tools%20Scripts/Iki-Scraper/img_cover.png",
 		title: "Iki_Scraper",
-		desc: "Advanced asynchronous web scraping framework powered by Playwright. Verb-first API, structured extraction, change detection, and resumable runs.",
+		desc: "Advanced asynchronous web scraping framework powered by Playwright. Verb-first API with structured extraction, table parsing, change detection, sitemap discovery, and resumable runs.",
 		url: "https://github.com/ikidevz/Iki_Scraper",
 		linkLabel: "https://github.com/ikidevz/Iki_Scraper",
 		footerTag: "pip install iki-scraper · GitHub",
@@ -155,9 +166,9 @@ export const HIGHLIGHT_TOOLS_PROJECTS = [
 		tag: "Tools",
 		date: "May 2026",
 		coverImg:
-			"https://raw.githubusercontent.com/ikidevz/Iki_PII_Masker/main/assets/readme.png",
+			"https://raw.githubusercontent.com/ikidevz/Iki_PII_Masker/main/assets/image.png",
 		title: "Iki_PII_Masker",
-		desc: "Fast, pipe-friendly CLI + library for sanitizing PII with 10+ strategies (fake, redact, hash, reversible AES). Auto-detection and multi-format support.",
+		desc: "Fast, pipe-friendly CLI and Python library for sanitizing PII using 10+ masking strategies including fake data, redact, hash, reversible AES encryption, and auto-detection.",
 		url: "https://github.com/ikidevz/Iki_PII_Masker",
 		linkLabel: "https://github.com/ikidevz/Iki_PII_Masker",
 		footerTag: "pip install iki-pii-masker · GitHub",
@@ -165,13 +176,57 @@ export const HIGHLIGHT_TOOLS_PROJECTS = [
 	{
 		tag: "Tools",
 		date: "May 2026",
-		title: "Iki_DQ_Check",
 		coverImg:
-			"https://tdhghaslnufgtzjybhhf.supabase.co/storage/v1/object/public/content/Data%20Tools%20Scripts/Iki-DQ-Check/cover.png",
-		desc: "Production-grade data quality validation with 25+ checks across Lite/Standard/Advanced tiers. Python-native config, CLI, and support for Pandas, Polars, DuckDB, SQL.",
-		url: "https://github.com/ikidevz/Iki_DQ_Check",
-		linkLabel: "https://github.com/ikidevz/Iki_DQ_Check",
-		footerTag: "pip install iki-dq-check · GitHub",
+			"https://raw.githubusercontent.com/ikidevz/IkiProtect/main/assets/image.png",
+		title: "IkiProtect",
+		desc: "Comprehensive data protection toolkit providing encryption, hashing, masking, tokenization, and essential security primitives through one unified API.",
+		url: "https://github.com/ikidevz/IkiProtect",
+		linkLabel: "https://github.com/ikidevz/IkiProtect",
+		footerTag: "pip install ikiprotect · GitHub",
+	},
+	{
+		tag: "Tools",
+		date: "April 2026",
+		coverImg:
+			"https://raw.githubusercontent.com/ikidevz/IkiSchema/main/assets/image.png",
+		title: "IkiSchema",
+		desc: "Infer, compare, validate, and document data schemas across structured datasets. Ideal for schema evolution and metadata-driven pipelines.",
+		url: "https://github.com/ikidevz/IkiSchema",
+		linkLabel: "https://github.com/ikidevz/IkiSchema",
+		footerTag: "GitHub",
+	},
+	{
+		tag: "Tools",
+		date: "April 2026",
+		coverImg:
+			"https://raw.githubusercontent.com/ikidevz/ikidgov-Iki-Data-Goverance/main/assets/image.png",
+		title: "Iki Data Governance",
+		desc: "Lightweight, composable governance toolkit for scanning data sources, classifying sensitive columns, profiling datasets, and evaluating role-based access policies.",
+		url: "https://github.com/ikidevz/ikidgov-Iki-Data-Goverance",
+		linkLabel: "https://github.com/ikidevz/ikidgov-Iki-Data-Goverance",
+		footerTag: "GitHub",
+	},
+	{
+		tag: "Tools",
+		date: "April 2026",
+		coverImg:
+			"https://raw.githubusercontent.com/ikidevz/IkiChunk/main/assets/image.png",
+		title: "IkiChunk",
+		desc: "One facade with zero required dependencies for common data engineering tasks including chunking, batching, processing, and utility workflows.",
+		url: "https://github.com/ikidevz/IkiChunk",
+		linkLabel: "https://github.com/ikidevz/IkiChunk",
+		footerTag: "GitHub",
+	},
+	{
+		tag: "Tools",
+		date: "April 2026",
+		coverImg:
+			"https://raw.githubusercontent.com/ikidevz/Iki-ETL-Table-Driven/main/assets/image.png",
+		title: "Iki-ETL-Table-Driven",
+		desc: "A metadata-driven, table-driven ETL framework for building configurable ingestion and transformation pipelines with minimal custom code.",
+		url: "https://github.com/ikidevz/Iki-ETL-Table-Driven",
+		linkLabel: "https://github.com/ikidevz/Iki-ETL-Table-Driven",
+		footerTag: "GitHub",
 	},
 ];
 
@@ -239,15 +294,6 @@ export const HIGHLIGHT_ETL_PROJECTS = [
 ];
 
 export const FLEX_PROJECTS = [
-	// Tools
-	{
-		tag: "Tools",
-		date: "May 2026",
-		title: "Iki_DQ_Check",
-		desc: "Production-grade data quality validation with 25+ checks across Lite/Standard/Advanced tiers. Python-native config, CLI, and support for Pandas, Polars, DuckDB, SQL.",
-		url: "https://github.com/ikidevz/Iki_DQ_Check",
-		github: "https://github.com/ikidevz/Iki_DQ_Check",
-	},
 	{
 		tag: "Data Engineering",
 		date: "May 2026",
@@ -273,14 +319,6 @@ export const FLEX_PROJECTS = [
 		desc: "Full Medallion architecture (Bronze → Silver → Gold) for retail data with Polars and Star Schema modeling.",
 		url: "https://ikiblog.vercel.app/posts/building-a-real-time-retail-data-pipeline-with-medallion-architecture",
 		github: "https://github.com/ikidevz/Retail-Medallion-Data-Pipeline",
-	},
-	{
-		tag: "Data Engineering",
-		date: "May 2026",
-		title: "ETL-Table-Driven",
-		desc: "Metadata-driven ETL framework where all business logic lives in JSON configuration. Zero-code pipeline additions.",
-		url: "https://ikiblog.vercel.app/posts/table-driven-etl",
-		github: "https://github.com/ikigamisama/ETL-Table-Driven",
 	},
 	{
 		tag: "Streaming",
